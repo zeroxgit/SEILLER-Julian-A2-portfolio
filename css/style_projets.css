@@ -1,0 +1,108 @@
+/* BODY */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #151628;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #151628;
+    padding: 20px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: sticky;
+}
+
+.logo {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* MAIN */
+
+.main {
+    margin-top: 100px;
+}
+
+.semester {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.projects-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-group {
+    flex: 0 0 calc(33.333% - 20px);
+    margin: 10px;
+    background: #383E5F;
+    opacity: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #3B5DD7;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-group img {
+    max-width: 100px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.project-group h1 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.project-group p {
+    font-size: 0.9em;
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}

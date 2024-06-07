@@ -1,0 +1,121 @@
+/* BODY */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #151628;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #151628;
+    padding: 20px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* MAIN */
+
+main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group.half {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    background-color: #151628;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: white;
+    width: 100%;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-group textarea {
+    height: 150px; 
+    resize: none;
+}
+
+button {
+    padding: 15px; 
+    border: none;
+    border-radius: 5px;
+    background: #00A2FF;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 1rem #00A2FF;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #008CDB;
+    box-shadow: 0 0 1.5rem #00A2FF;
+}
